@@ -1,0 +1,142 @@
+/*!
+ *      Default styles for all pages
+ *      Fumana global styles
+ *      (c) Fumana Teams 2020
+*/
+
+body,
+input,
+button {
+  font-size: var(--default_font__size);
+  font-family: var(--font_family);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Utilities START */
+
+.mt-12vh {
+  margin-top: 12vh;
+}
+
+.pt-4vh {
+  padding-top: 4vh;
+}
+
+.pt-6vh {
+  padding-top: 6vh;
+}
+
+.pt-8vh {
+  padding-top: 10vh;
+}
+
+/* Utilities END */
+
+.font-size-large {
+  font-size: large;
+}
+
+.font-size-normal {
+  font-size: normal;
+}
+
+.font-size-small {
+  font-size: small;
+}
+
+
+.font-size-smaller {
+  font-size: smaller;
+}
+
+a.text-decoration-none {
+  text-decoration: none;
+}
+
+/* Auth pagesSTYLES */
+
+.auth-container {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.auth-container {
+  height: 75vh;
+  max-width: 98%;
+}
+
+.auth-container .left-part,
+.auth-container .right-part,
+.auth-container .main-part {
+  height: 75vh;
+  padding-top: 4vh;
+  border-radius: 0;
+}
+
+.auth-container .left-part {
+  background: linear-gradient(var(--color_primary), var(--color_tertiary));
+}
+
+.auth-container .left-part .place-holder-img {
+  margin-top: 3vh;
+}
+
+.auth-container .right-part,
+.auth-container .main-part {
+  background: var(--bg_lightgray);
+}
+
+.auth-container .right-part .auth-title {
+  font-size: 1.1875rem;
+}
+
+/* Responsive Contents START */
+
+/* For larger screens >= 1024px~1140px  */
+@media all and (min-width: 1023px) {
+
+  /* Auth pagesSTYLES */
+
+  .auth-container .main-part {
+    height: 65vh;
+  }
+
+  .auth-container .left-part,
+  .auth-container .right-part,
+  .auth-container .main-part {
+    height: 75vh;
+    padding-top: 4vh;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+
+  .auth-container .left-part {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .auth-container .left-part .place-holder-img {
+    margin-top: 3vh;
+  }
+
+  .auth-container .right-part {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .auth-container .right-part .auth-title {
+    font-size: 1.1875rem;
+  }
+}
+
+/* Responsive Contents END */
