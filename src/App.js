@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{useEffect} from 'react';
 import './App.css';
+import './components/assets/styles/Styles.css';
+import './components/assets/styles/Sidenav.css';
+import './components/assets/styles/Theme.css';
+import './components/assets/styles/Reset.css';
+import './components/assets/styles/Normalize.css';
+import './components/assets/styles/Animate.css';
+import './components/assets/styles/Html5reset.css';
+//import Signin from './components/auth/Signin';
+import MainRouter from './components/MainRouter';
 
-function App() {
+import {BrowserRouter} from 'react-router-dom'
+import { hot } from 'react-hot-loader'
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  <BrowserRouter>
 
-export default App;
+      <MainRouter/>
+  </BrowserRouter>
+)}
+
+export default hot(module)(App)
+

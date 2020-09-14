@@ -1,0 +1,74 @@
+/*!
+ *      Default styles for all pages
+ *      Fumana global styles
+ *      (c) Fumana Teams 2020
+*/
+
+:root {
+  /* Global attributes */
+  --theme_color: #004660;
+  --color_primary: #004660;
+  --color_secondary: #0a6f94;
+  --color_tertiary: #50b2d6;
+  --color_accessibility__light: #ECEFF1;
+  --color_white: #ffffff;
+  --color_gray: rgba(122, 118, 118, 0.897);
+  --color_accessibility: #263238;
+  --bg_lightgray: rgba(245, 245, 245, 0.8);
+  --default_font__size: 1rem;
+  --font_family: sans-serif;
+}
+
+/* Text colors */
+.color-primary {
+  color: var(--color_primary);
+}
+
+.color-secondary {
+  color: var(--color_secondary);
+}
+
+.color-tertiary {
+  color: var(--color_tertiary);
+}
+
+.color-accessibility {
+  color: var(--color_accessibility);
+}
+
+
+.color_light__accessibility {
+  color: var(--color_light__accessibility);
+}
+
+.color-white {
+  color: var(--color_white);
+}
+
+.color-gray {
+  color: var(--color_gray);
+}
+
+/* Background colors */
+.bg-primary {
+  background-color: var(--color_primary);
+}
+
+.bg-secondary {
+  background-color: var(--color_secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--color_tertiary);
+}
+
+.bg-lightgray {
+  background-color: var(--bg_lightgray);
+}
+
+
+
+
+.bg-accessibility {
+  background-color: var(--color_accessibility)
+}
