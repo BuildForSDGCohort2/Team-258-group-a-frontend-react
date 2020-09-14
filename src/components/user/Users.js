@@ -9,7 +9,7 @@ import ListItemText from '@material-ui/core/ListItemText'
 import Avatar from '@material-ui/core/Avatar'
 import IconButton from '@material-ui/core/IconButton'
 import Typography from '@material-ui/core/Typography'
-import ArrowForward from '@material-ui/icons/ArrowForward'
+//import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Person from '@material-ui/icons/Person'
 import {Link} from 'react-router-dom'
 import {list} from './api-user.js'
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-export default function Users() { 
+export default function Users() {
   const classes = useStyles()
   const [users, setUsers] = useState([])
 
@@ -64,7 +64,8 @@ export default function Users() {
                       <ListItemText primary={item.name}/>
                       <ListItemSecondaryAction>
                       <IconButton>
-                          <ArrowForward/>
+
+                          {/* <ArrowForwardIcon /> */}
                       </IconButton>
                       </ListItemSecondaryAction>
                     </ListItem>
