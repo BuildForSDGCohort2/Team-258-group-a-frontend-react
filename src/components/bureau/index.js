@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Presentation from "./presentation";
+import Info from "./BureauInfo";
 
 const bureauList = [
   {
@@ -73,7 +73,13 @@ const getBureauInfo = (id)=>{
     return bureauList.filter( bureau => bureau.id === id)
 }
 const BureauInfo = () => {
-  const bureauInfo = getBureauInfo(id);
 
-  return <Presentation data={bureauInfo} />;
+  const bureauInfo = getBureauInfo('id');
+
+  // Get url part do display the correct component
+
+
+  return <Info data={bureauInfo} />;
 };
+
+export default BureauInfo

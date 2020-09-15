@@ -18,7 +18,7 @@ class Sidenav extends Component {
               </a>
             </li>
             <li className="color_light__accessibility">
-              <a href="#">
+              <a href="/bureau">
                 <span className="fa fa-briefcase"></span> Bureau
               </a>
             </li>
@@ -68,7 +68,7 @@ class Sidenav extends Component {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/bureau">
                       Bureau
                     </a>
                   </li>
