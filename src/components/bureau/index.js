@@ -1,6 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Info from "./BureauInfo";
+import BureauInfo from "./BureauInfo";
 
 const bureauList = [
   {
@@ -26,7 +25,7 @@ const bureauList = [
       {
         address: "address",
         address_line_2: "address_line_2",
-        city: "city",
+
         province: "province",
         city: "city",
         country: "country",
@@ -57,7 +56,7 @@ const bureauList = [
       {
         address: "address_2",
         address_line_2: "address_line_2_2",
-        city: "city_2",
+
         province: "province_2",
         city: "city_2",
         country: "country_2",
@@ -68,18 +67,18 @@ const bureauList = [
 
 ];
 
-// Get a single ureau
+// Get a single bureau
 const getBureauInfo = (id)=>{
     return bureauList.filter( bureau => bureau.id === id)
 }
-const BureauInfo = () => {
+const Bureau = () => {
 
-  const bureauInfo = getBureauInfo('id');
+  const bureauData = getBureauInfo('id');
 
   // Get url part do display the correct component
 
 
-  return <Info data={bureauInfo} />;
+  return <BureauInfo data={bureauData} />;
 };
 
-export default BureauInfo
+export default Bureau

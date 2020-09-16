@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Home from "./Home";
+
 class Sidenav extends Component {
   render() {
     return (
