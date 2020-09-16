@@ -20,7 +20,7 @@ p{
 }
 
 .identity-section{
-    text-align: center;
+    text-align: left;
     line-height:25px;
 
 }
@@ -30,6 +30,14 @@ p{
     height:150px;
     margin: auto;
     margin-bottom: 2em;;
+
+}
+
+.identity-section > .identity-img >img{
+
+    margin: auto;
+    width: 100%;
+
 
 }
 
