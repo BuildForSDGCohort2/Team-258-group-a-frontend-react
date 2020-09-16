@@ -49,10 +49,10 @@ const BureauInfo = ({data}) => {
         <Grid item xs={10} className="contact-section">
           <div className="contact-col">
             <h4>Primary Email</h4>
-            <p>{info.primary_email}</p>
+            <p>{info.contact.primary_email}</p>
 
             <h4>Secondary Email</h4>
-            <p>{info.secondary_email}</p>
+            <p>{info.contact.secondary_email}</p>
 
             <h4>Website</h4>
             <p>{info.website}</p>
@@ -60,13 +60,13 @@ const BureauInfo = ({data}) => {
 
           <div className="contact-col">
             <h4>Contact person</h4>
-            <p>{info.contact_person} </p>
+            <p>{info.contact.contact_person} </p>
             <p>Position in the organization</p>
             <h4>Phone number 1</h4>
-            <p>{info.phone_number_1}</p>
+            <p>{info.contact.phone_number_1}</p>
 
             <h4>Phone number 2</h4>
-            <p>{info.phone_number_2}</p>
+            <p>{info.contact.phone_number_2}</p>
           </div>
 
         <div className="contact-col">

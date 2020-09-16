@@ -13,18 +13,18 @@ const bureauList = [
     social_tweeter: "url",
     social_linkedin: "url",
     social_google: "url",
-    website:'url',
+    website:'us_in_the_game.com',
     contact: {
-      primary_email: "email",
-      secondary_email: "email",
-      phone_number_1: "phone",
-      phone_number_2: "phone",
+      primary_email: "email_1@email.com",
+      secondary_email: "email@email.com",
+      phone_number_1: "1111 555 77777",
+      phone_number_2: "555 5566 6665",
       contact_person: "person",
       contact_position: "position",
     },
     address: [
       {
-        address: "address",
+        address: "11 lakers berma",
         address_line_2: "address_line_2",
 
         province: "province",
