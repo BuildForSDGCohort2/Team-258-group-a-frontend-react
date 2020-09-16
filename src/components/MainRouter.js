@@ -11,7 +11,8 @@ import Sidenav from './core/Sidenav';
 import BureauInfo from './bureau'
 
 const MainRouter = () => {
-    return (<div>
+    return (
+    <div className="wrapper d-flex align-items-stretch">
       <Sidenav/>
       <Switch>
         <Route exact path="/" component={Home}/>
