@@ -16,7 +16,8 @@
   --color_accessibility: #263238;
   --bg_lightgray: rgba(245, 245, 245, 0.8);
   --default_font__size: 1rem;
-  --font_family: sans-serif;
+  --default_font__family: Muli, sans-serif;
+  --heading_font: Catamaran;
 }
 
 /* Text colors */
@@ -35,7 +36,6 @@
 .color-accessibility {
   color: var(--color_accessibility);
 }
-
 
 .color_light__accessibility {
   color: var(--color_light__accessibility);
@@ -66,9 +66,10 @@
   background-color: var(--bg_lightgray);
 }
 
-
-
-
 .bg-accessibility {
   background-color: var(--color_accessibility)
+}
+
+.bg-gray {
+  background-color: var(--color_gray);
 }
