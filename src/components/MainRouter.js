@@ -8,9 +8,11 @@ import EditProfile from './user/EditProfile'
 import Profile from './user/Profile'
 import PrivateRoute from './auth/PrivateRoute'
 import Sidenav from './core/Sidenav';
+import BureauInfo from './bureau'
 
 const MainRouter = () => {
-    return (<div>
+    return (
+    <div className="wrapper d-flex align-items-stretch">
       <Sidenav/>
       <Switch>
         <Route exact path="/" component={Home}/>
@@ -19,6 +21,7 @@ const MainRouter = () => {
         <Route path="/signin" component={Signin}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
+        <Route path='/bureau' component= {BureauInfo} />
       </Switch>
     </div>)
 }
