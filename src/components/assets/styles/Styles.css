@@ -3,13 +3,41 @@
  *      Fumana global styles
  *      (c) Fumana Teams 2020
 */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  /* box-shadow: 1px 1px 1px #f00; */
+
+  /* For development use only */
+}
+
+button {
+  cursor: pointer;
+}
 
 body,
 input,
 button {
   font-size: var(--default_font__size);
-  font-family: var(--font_family);
+  font-family: var(--default_font__family);
   -webkit-font-smoothing: antialiased;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--heading_font);
 }
 
 button {
@@ -39,6 +67,30 @@ button {
   cursor: pointer;
 }
 
+.border-3 {
+  border-width: 3px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-gray {
+  border-color: var(--color_gray)
+}
+
+.bordered-radius-4 {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+table-responsive table tr.p-sticky {
+  position: sticky;
+  top: 120px;
+}
 
 /* Utilities END */
 
@@ -261,6 +313,54 @@ a[data-toggle="collapse"] {
 
 .auth-container .right-part .auth-title {
   font-size: 1.1875rem;
+}
+
+.jobview-container {
+  height: 90vh;
+  max-height: 540px;
+}
+
+.jobview-container .job-details,
+.jobview-container .candidate-details {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.jobview-container .job-details .title h2,
+.jobview-container .candidate-details .title h2 {
+  font-size: x-large;
+  margin: 2vh auto;
+}
+
+.jobview-container .job-description table.table th,
+.jobview-container .job-description table.table tr {
+  border-top: hidden;
+}
+
+.jobview-container .candidate-details .tab-content {
+  max-height: 80%;
+}
+
+.jobview-container .candidate-details .tab-content .table-responsive {
+  height: 100%;
+  max-height: 480px;
+}
+
+.jobview-container .job-details .job-details-border {
+  height: 100%;
+  max-height: 530px;
+  overflow-y: auto;
+}
+
+.detailed-description p.desc-text {
+  line-height: 20px;
+}
+
+.search-container button.search-icon {
+  position: absolute;
+  left: 260px;
+  top: 0;
 }
 
 /* Responsive Contents START */
