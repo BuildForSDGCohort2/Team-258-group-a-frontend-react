@@ -2,6 +2,9 @@
   "name": "fumana-work",
   "version": "0.1.0",
   "private": true,
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -35,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "react-app-rewired": "^2.1.6",
     "react-hot-loader": "^4.5.3"
   }
 }
