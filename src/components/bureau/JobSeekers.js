@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 
 class JobSeekers extends Component {
@@ -159,9 +158,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -194,9 +193,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -229,9 +228,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -264,9 +263,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -299,9 +298,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -334,9 +333,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -369,9 +368,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -404,9 +403,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -439,9 +438,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -474,9 +473,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -527,9 +526,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -562,9 +561,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -597,9 +596,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -632,9 +631,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -667,9 +666,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -720,9 +719,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -755,9 +754,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -790,9 +789,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -825,9 +824,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
@@ -860,9 +859,9 @@ class JobSeekers extends Component {
                           </td>
                           <td>
                             <span className="c-details">
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-remove remove"
                                     title="Delete"></i></a></div>
-                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit"
+                              <div><a className="text-decoration-none mx-2" href="#"> <i className="fa fa-edit edit"
                                     title="Edit"></i></a></div>
                             </span>
                           </td>
