@@ -9,7 +9,8 @@ import Profile from './user/Profile'
 import PrivateRoute from './auth/PrivateRoute'
 import Sidenav from './core/Sidenav';
 import BureauInfo from './bureau';
-import JobSeekers from './bureau'
+import JobSeekers from './bureau';
+import Dashboard from './bureau'
 
 const MainRouter = () => {
     return (
@@ -22,8 +23,9 @@ const MainRouter = () => {
         <Route path="/signin" component={Signin}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
-        <Route path='/bureau' component= {BureauInfo} />
-        <Route path='/jobseeker' component= {JobSeekers} />
+        <Route path='/bureau' component={BureauInfo} />
+        <Route path='/jobseeker' component={JobSeekers} />
+        <Route path='/dashboard' component={Dashboard} />
       </Switch>
     </div>)
 }
