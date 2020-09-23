@@ -3,7 +3,7 @@ import './BureauDashboard.css'
 
 
 
-const Presentation = ({dashBoardData})=>{
+const Dashboard = ({dashBoardData})=>{
 
     return(
           <div className="container">
