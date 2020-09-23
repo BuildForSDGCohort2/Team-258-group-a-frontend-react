@@ -24,7 +24,7 @@ class Sidenav extends Component {
             </li>
             <li className="color_light__accessibility">
               <a href="/user">
-              <a href="#">
+
                 <span className="fa fa-user"></span> User
               </a>
             </li>
