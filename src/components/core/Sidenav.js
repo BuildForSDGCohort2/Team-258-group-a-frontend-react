@@ -13,7 +13,7 @@ class Sidenav extends Component {
               ></li>
             </div>
             <li className="active color_light__accessibility">
-              <a href="#">
+              <a href="/dashboard">
                 <span className="fa fa-dashboard"></span> Dashboard
               </a>
             </li>
@@ -23,27 +23,28 @@ class Sidenav extends Component {
               </a>
             </li>
             <li className="color_light__accessibility">
+              <a href="/user">
               <a href="#">
                 <span className="fa fa-user"></span> User
               </a>
             </li>
             <li className="color_light__accessibility">
-              <a href="#">
+              <a href="/employer">
                 <span className="fa fa-user"></span> Employer
               </a>
             </li>
             <li className="color_light__accessibility">
-              <a href="#">
+              <a href="jobseeker">
                 <span className="fa fa-users"></span> Job seeker
               </a>
             </li>
             <li className="color_light__accessibility">
-              <a href="#">
+              <a href="/settings">
                 <span className="fa fa-cogs"></span> Settings
               </a>
             </li>
             <li className="color_light__accessibility">
-              <a href="#">
+              <a href="/legal">
                 <span className="fa fa-paper-plane"></span> Legal
               </a>
             </li>

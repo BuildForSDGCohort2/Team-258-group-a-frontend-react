@@ -7,7 +7,6 @@ import './components/assets/styles/Reset.css';
 import './components/assets/styles/Normalize.css';
 import './components/assets/styles/Animate.css';
 import './components/assets/styles/Html5reset.css';
-//import Signin from './components/auth/Signin';
 import MainRouter from './components/MainRouter';
 
 import {BrowserRouter} from 'react-router-dom'
