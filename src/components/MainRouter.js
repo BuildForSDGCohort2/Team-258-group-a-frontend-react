@@ -8,9 +8,11 @@ import EditProfile from './user/EditProfile'
 import Profile from './user/Profile'
 import PrivateRoute from './auth/PrivateRoute'
 import Sidenav from './core/Sidenav';
-import BureauInfo from './bureau';
-import JobSeekers from './bureau';
-import Dashboard from './bureau'
+import BureauInfo from './bureau/BureauInfo';
+import JobSeekers from './bureau/JobSeekers';
+import Dashboard from './bureau/Dashboard';
+import EditBureau from './bureau/EditBureau'
+
 
 const MainRouter = () => {
     return (
@@ -26,6 +28,7 @@ const MainRouter = () => {
         <Route path='/bureau' component={BureauInfo} />
         <Route path='/jobseeker' component={JobSeekers} />
         <Route path='/dashboard' component={Dashboard} />
+        <Route path='/edit' component={EditBureau} />
       </Switch>
     </div>)
 }
