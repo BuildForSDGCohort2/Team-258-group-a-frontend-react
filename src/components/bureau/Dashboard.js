@@ -6,7 +6,7 @@ import './BureauDashboard.css'
 const Dashboard = ({dashBoardData})=>{
 
     return(
-          <div className="container">
+      <div className="container">
       <div className="row mt-5 pt-3">
         <div className="col-md-2 mx-auto rounded border-3 border-solid border-dark bg-lightgray">
           <div className="figures-container text-center mx-auto my-4">
