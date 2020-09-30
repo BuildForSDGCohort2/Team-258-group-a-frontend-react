@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class JobSeekers extends Component {
-    
+
   render() {
         return (
       <div className="container border-dark justify-content-center align-items-center mx-auto mt-5">

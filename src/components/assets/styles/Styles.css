@@ -91,11 +91,14 @@ table-responsive table tr.p-sticky {
   position: sticky;
   top: 120px;
 }
+
 .remove:hover {
   color: var(--red);
 }
 
-.edit:hover {color: var(--green)}
+.edit:hover {
+  color: var(--green)
+}
 
 /* Utilities END */
 
