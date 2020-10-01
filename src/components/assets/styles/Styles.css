@@ -25,6 +25,10 @@ button {
   -webkit-font-smoothing: antialiased;
 }
 
+a:hover {
+  color: var(--color_hover)
+}
+
 h1,
 .h1,
 h2,
@@ -48,6 +52,10 @@ button {
 
 .mt-12vh {
   margin-top: 12vh;
+}
+
+.mt-8vh {
+  margin-top: 8vh;
 }
 
 .pt-4vh {
@@ -87,6 +95,14 @@ button {
   -o-border-radius: 4px;
 }
 
+.bordered-radius-8 {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
 table-responsive table tr.p-sticky {
   position: sticky;
   top: 120px;
@@ -114,9 +130,16 @@ table-responsive table tr.p-sticky {
   font-size: small;
 }
 
-
 .font-size-smaller {
   font-size: smaller;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-38 {
+  font-size: 38px;
 }
 
 a.text-decoration-none {
@@ -307,7 +330,13 @@ a[data-toggle="collapse"] {
 }
 
 .auth-container .left-part {
-  background: linear-gradient(var(--color_primary), var(--color_tertiary));
+  background: linear-gradient(var(--bg-primary__light), var(--bg_hover));
+}
+
+.auth-container .left-part .logo-area .logo-img {
+  height: 58px;
+  width: 58px;
+  margin-left: 5vw;
 }
 
 .auth-container .left-part .place-holder-img {

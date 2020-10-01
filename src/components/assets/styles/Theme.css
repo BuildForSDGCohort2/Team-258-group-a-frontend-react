@@ -6,15 +6,21 @@
 
 :root {
   /* Global attributes */
-  --theme_color: #004660;
-  --color_primary: #004660;
-  --color_secondary: #0a6f94;
-  --color_tertiary: #50b2d6;
+  --theme_color: #a87705;
+  --color_primary: #f9ae00;
+  --color_secondary: #cf940a;
+  --color_tertiary: #c08702;
   --color_accessibility__light: #ECEFF1;
-  --color_white: #ffffff;
+  --color_white: #fff;
+  --color_black: #000;
   --color_gray: rgba(122, 118, 118, 0.897);
+  --color_darkgray: rgba(39, 38, 38, 0.897);
   --color_accessibility: #263238;
+  --color_hover: #00aa9f;
+  --bg_hover__dark: #008077;
   --bg_lightgray: rgba(245, 245, 245, 0.8);
+  --bg_hover: #00b6aa;
+  --bg-primary__light: #f8c858b6;
   --default_font__size: 1rem;
   --default_font__family: Muli, sans-serif;
   --heading_font: Catamaran;
@@ -41,17 +47,33 @@
   color: var(--color_light__accessibility);
 }
 
+.color-hover {
+  color: var(--color_hover);
+}
+
 .color-white {
   color: var(--color_white);
+}
+
+.color-black {
+  color: var(--color_black);
 }
 
 .color-gray {
   color: var(--color_gray);
 }
 
+.color_hover__dark {
+  background-color: var(--color_hover__dark)
+}
+
 /* Background colors */
 .bg-primary {
   background-color: var(--color_primary);
+}
+
+.bg-primary__light {
+  background-color: var(--bg-primary__light);
 }
 
 .bg-secondary {
@@ -64,6 +86,14 @@
 
 .bg-lightgray {
   background-color: var(--bg_lightgray);
+}
+
+.bg_hover {
+  background-color: var(--bg_hover)
+}
+
+.bg_hover__dark {
+  background-color: var(--bg_hover__dark)
 }
 
 .bg-accessibility {

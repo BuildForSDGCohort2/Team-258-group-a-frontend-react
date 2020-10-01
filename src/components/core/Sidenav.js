@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Sidenav extends Component {
   render() {
     return (
-
         <nav id="sidebar" className="active">
           <ul className="list-unstyled components mb-5">
             <div className="text-center mb-2">
@@ -29,7 +28,7 @@ class Sidenav extends Component {
             </li>
             <li className="color_light__accessibility">
               <a href="/edit">
-                <span className="fa fa-edit"></span> Edit 
+                <span className="fa fa-edit"></span> Edit
               </a>
             </li>
             <li className="color_light__accessibility">
@@ -58,10 +57,6 @@ class Sidenav extends Component {
             <p>Copyright &copy; 2020 Fumana</p>
           </div>
         </nav>
-
-
-
-
     );
   }
 }
