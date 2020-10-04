@@ -3,10 +3,6 @@ import React, { Component } from "react";
 class Sidenav extends Component {
   render() {
     return (
-<<<<<<< HEAD
-=======
-
->>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
         <nav id="sidebar" className="active">
           <ul className="list-unstyled components mb-5">
             <div className="text-center mb-2">
@@ -61,13 +57,6 @@ class Sidenav extends Component {
             <p>Copyright &copy; 2020 Fumana</p>
           </div>
         </nav>
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
     );
   }
 }
