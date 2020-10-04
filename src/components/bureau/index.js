@@ -100,24 +100,9 @@ const Bureau = (props) => {
     case "/jobseeker":
       return <JobSeekers />
       break;
-<<<<<<< HEAD
-
         default:
-=======
-    case "/dashboard":
-      return <Dashboard />
-
-      break;
-
-    default:
->>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
             return <div>Loading... </div>
-
-
-
   }
-
-
 };
 
 export default Bureau;
