@@ -9,7 +9,6 @@ import './components/assets/styles/Animate.css';
 import './components/assets/styles/Html5reset.css';
 import './components/assets/styles/Bootstrap.css';
 import MainRouter from './components/MainRouter';
-
 import {BrowserRouter} from 'react-router-dom'
 import { hot } from 'react-hot-loader'
 
