@@ -214,4 +214,8 @@ const EditBureau = ({editBureauData})=> {
         );
     }
 
+<<<<<<< HEAD
 export default EditBureau;
+=======
+export default EditBureau;
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192

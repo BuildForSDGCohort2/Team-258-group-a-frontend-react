@@ -16,6 +16,11 @@
 }
 
 .details-container .details-title {
+<<<<<<< HEAD
     background-color: var(--bg_hover);
     color: var(--color_white);
 }
+=======
+    background-color: var(--color_tertiary);
+}
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192

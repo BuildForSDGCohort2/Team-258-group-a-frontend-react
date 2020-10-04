@@ -1,6 +1,10 @@
 import React from "react";
 import BureauInfo from "./BureauInfo";
 import JobSeekers from "./JobSeekers";
+<<<<<<< HEAD
+=======
+import Dashboard from "./Dashboard";
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
 import defaultImg from './img/default.png'
 const bureauList = [
   {
@@ -96,8 +100,17 @@ const Bureau = (props) => {
     case "/jobseeker":
       return <JobSeekers />
       break;
+<<<<<<< HEAD
 
         default:
+=======
+    case "/dashboard":
+      return <Dashboard />
+
+      break;
+
+    default:
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
             return <div>Loading... </div>
 
 

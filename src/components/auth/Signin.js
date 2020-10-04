@@ -2,7 +2,11 @@ import React from 'react';
 import auth from './../auth/auth-helper'
 import { Redirect } from 'react-router-dom'
 import { signin } from './api-auth.js'
+<<<<<<< HEAD
 import Logo from './../assets/images/logo/logo.png'
+=======
+import Logo from './../assets/images/logo.png'
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
 import Placeholder from './../assets/images/placeholder.png'
 
 
@@ -59,7 +63,11 @@ function Signin(props) {
 
   return (
       <div className="container">
+<<<<<<< HEAD
         <div className="auth-container rounded w-100 h-100 mt-8vh">
+=======
+        <div className="auth-container rounded w-100 h-100 mt-12vh">
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
           <div className="row">
             {/* left part STARTS */}
             <div className="d-none d-sm-none d-md-none d-lg-block col-lg-5 p-0">
@@ -67,7 +75,11 @@ function Signin(props) {
                 <div className="logo-area">
                   <div className="row">
                     <div className="col-lg-8">
+<<<<<<< HEAD
                       <img className="img-fluid ml-2 mt-1 float-left text-left align-top logo-img"
+=======
+                      <img className="img-fluid ml-2 mt-1 float-left text-left align-top"
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
                         src={Logo} alt="Fumana logo" />
                     </div>
                     <div className="col-lg-4">
@@ -77,7 +89,11 @@ function Signin(props) {
                   </div>
                 </div>
                 <div className="place-holder-img justify-content-center align-content-center text-center">
+<<<<<<< HEAD
                   <img className="img-fluid placeholder-img" src={Placeholder} alt="Fumana" />
+=======
+                  <img className="img-fluid" src={Placeholder} alt="Fumana" />
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
                 </div>
               </div>
             </div>

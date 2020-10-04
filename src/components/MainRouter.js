@@ -9,7 +9,11 @@ import Profile from './user/Profile'
 import PrivateRoute from './auth/PrivateRoute'
 import Sidenav from './core/Sidenav';
 import BureauInfo from './bureau/BureauInfo';
+<<<<<<< HEAD
 import JobSeekers from './bureau';
+=======
+import JobSeekers from './bureau/JobSeekers';
+>>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
 import Dashboard from './bureau/Dashboard';
 import EditBureau from './bureau/EditBureau'
 
