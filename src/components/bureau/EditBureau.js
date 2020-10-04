@@ -213,3 +213,4 @@ const EditBureau = ({editBureauData})=> {
         );
     }
 
+export default EditBureau;
