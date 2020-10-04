@@ -67,11 +67,7 @@ function Signin(props) {
                 <div className="logo-area">
                   <div className="row">
                     <div className="col-lg-8">
-<<<<<<< HEAD
                       <img className="img-fluid ml-2 mt-1 float-left text-left align-top logo-img"
-=======
-                      <img className="img-fluid ml-2 mt-1 float-left text-left align-top"
->>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
                         src={Logo} alt="Fumana logo" />
                     </div>
                     <div className="col-lg-4">
