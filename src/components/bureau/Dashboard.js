@@ -179,8 +179,3 @@ const Dashboard = ({dashBoardData})=>{
     )
 }
 
-<<<<<<< HEAD
-export default Dashboard;
-=======
-export default Dashboard;
->>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192

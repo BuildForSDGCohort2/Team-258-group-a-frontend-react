@@ -1,11 +1,7 @@
 import React from "react";
 import BureauInfo from "./BureauInfo";
 import JobSeekers from "./JobSeekers";
-<<<<<<< HEAD
-=======
-import Dashboard from "./Dashboard";
->>>>>>> 225f12b2edda8ea4a30562f7eca469f03dd28192
-import defaultImg from './img/default.png'
+import defaultImg from './img/default.png';
 const bureauList = [
   {
     id: "123",
@@ -88,8 +84,6 @@ const Bureau = (props) => {
 
 
   const link = props.location.pathname;
-
-
 
   // Get url part do display the correct component
 
