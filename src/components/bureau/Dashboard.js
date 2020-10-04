@@ -179,3 +179,4 @@ const Dashboard = ({dashBoardData})=>{
     )
 }
 
+export default Dashboard;
