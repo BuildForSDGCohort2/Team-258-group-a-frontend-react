@@ -60,7 +60,7 @@ const Dashboard = ({dashBoardData})=>{
                 <i className="fa fa-2x fa-female"></i>
               </div>
               <div className="col-md-9 py-2 px-auto bg-lightgray">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
             </div>
