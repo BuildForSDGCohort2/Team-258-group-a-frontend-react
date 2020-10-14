@@ -1,8 +1,7 @@
 import React from "react";
 import BureauInfo from "./BureauInfo";
 import JobSeekers from "./JobSeekers";
-import Dashboard from "./Dashboard";
-import defaultImg from './img/default.png'
+import defaultImg from './img/default.png';
 const bureauList = [
   {
     id: "123",
@@ -86,8 +85,6 @@ const Bureau = (props) => {
 
   const link = props.location.pathname;
 
-
-
   // Get url part do display the correct component
 
   switch(link){
@@ -97,19 +94,9 @@ const Bureau = (props) => {
     case "/jobseeker":
       return <JobSeekers />
       break;
-    case "/dashboard":
-      return <Dashboard />
-
-      break;
-
-    default:
+        default:
             return <div>Loading... </div>
-
-
-
   }
-
-
 };
 
 export default Bureau;

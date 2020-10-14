@@ -16,5 +16,6 @@
 }
 
 .details-container .details-title {
-    background-color: var(--color_tertiary);
+    background-color: var(--bg_hover);
+    color: var(--color_white);
 }

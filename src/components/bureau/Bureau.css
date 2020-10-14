@@ -25,7 +25,6 @@ p {
 .identity-section {
   text-align: left;
   line-height: 25px;
-
 }
 
 .identity-section>.identity-img {
@@ -34,8 +33,6 @@ p {
   height: 150px;
   margin: auto;
   margin-bottom: 2em;
-  ;
-
 }
 
 .identity-section>.identity-img>img {
@@ -44,13 +41,9 @@ p {
   width: 100%;
 }
 
-.contact-section {}
-
 .contact-section {
-
   display: flex;
   align-items: stretch;
-
 }
 
 .contact-section>.contact-col {
@@ -59,10 +52,7 @@ p {
   display: inline-block;
   margin: 1rem;
   padding: 0rem;
-
-
 }
-
 
 .description-section {
   margin-top: 1rem;

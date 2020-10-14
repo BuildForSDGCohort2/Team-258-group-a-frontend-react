@@ -14,7 +14,7 @@ import DialogContent from '@material-ui/core/DialogContent'
 import DialogContentText from '@material-ui/core/DialogContentText'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import { Link } from 'react-router-dom'
-import Logo from './../assets/images/logo.png'
+import Logo from './../assets/images/logo/logo.png'
 import Placeholder from './../assets/images/placeholder.png'
 
 
@@ -85,7 +85,7 @@ export default function Signup() {
 
   return (
     <div className="container">
-      <div className="auth-container rounded w-100 h-100 mt-12vh">
+      <div className="auth-container rounded w-100 h-100 mt-8vh">
         <div className="row">
           {/* left part STARTS */}
           <div className="d-none d-sm-none d-md-none d-lg-block col-lg-5 p-0">
@@ -93,7 +93,7 @@ export default function Signup() {
               <div className="logo-area">
                 <div className="row">
                   <div className="col-lg-8">
-                    <img className="img-fluid ml-2 mt-1 float-left text-left align-top"
+                    <img className="img-fluid ml-2 mt-1 float-left text-left align-top logo-img"
                       src={Logo} alt="Fumana logo" />
                   </div>
                   <div className="col-lg-4">
@@ -103,7 +103,7 @@ export default function Signup() {
                 </div>
               </div>
               <div className="place-holder-img justify-content-center align-content-center text-center">
-                <img className="img-fluid" src={Placeholder} alt="Fumana" />
+                <img className="img-fluid placeholder-img" src={Placeholder} alt="Fumana" />
               </div>
             </div>
           </div>

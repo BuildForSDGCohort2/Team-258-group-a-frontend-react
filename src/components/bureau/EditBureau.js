@@ -210,7 +210,6 @@ const EditBureau = ({editBureauData})=> {
                 </div>
             </div>
         </div>
-
         );
     }
 
