@@ -19,11 +19,30 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
+  const info = {
+      id: 0,
+      name: "Test0",
+      logoImg: "some_URL",
+      type: "some type",
+      date_joined: "28-07-2020",
+      contact: {
+        primary_email: "someone-email1@email.com",
+        secondary_email: "someone-email2@email.com"
+      },
+      website: "www.someone.com",
+      address: [{
+        address: "Line 1",
+        address_line_2: "Line 2",
+        city: "Some city",
+        country: "Some country",
+      }],
+      description: "Some description"
+    }
 
 const BureauInfo = ({data}) => {
   const [spacing, setSpacing] = useState(2);
   const classes = useStyles();
-  const info = data[0];
+  // const info = data;
 
 
 
@@ -35,10 +54,10 @@ const BureauInfo = ({data}) => {
           <div className="edit-icon"> <EditIcon/></div>
 
           <div className="identity-img">
-         <img src={info.logoImg} alt="logo" />
+          <img src={info.logoImg} alt="logo" />
           </div>
           <div className="identity-ids">
-             <p>org name: {info.name}</p>
+            <p>org name: {info.name}</p>
             <p>Org type: {info.type} </p>
             <p>Fumana acc no:{info.id} </p>
             <p>Date joined:{info.date_joined}</p>
