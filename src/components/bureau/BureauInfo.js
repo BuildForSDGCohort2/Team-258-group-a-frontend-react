@@ -89,7 +89,7 @@ const BureauInfo = ({data}) => {
                   <p className="content-two__country"> <b className="text">Country:</b> {info.address[0].country}</p>
                 </div>
                 <div className="col-md-1">
-                  <a href="/edit" title="Edit" className="edit p-2 border bg-hover"><i className="fa fa-2x fa-edit"> Edit</i></a>
+                  <a href="/edit" title="Edit details" className="edit p-2 border rounded bg_hover__dark text-white"><i className="fa fa-2x fa-edit"> Edit</i></a>
                 </div>
               </div>
             </div>
