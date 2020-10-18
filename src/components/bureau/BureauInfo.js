@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   }));
 
   const info = {
-      id: 0,
+      id: "XX0-SS3-444",
       name: "John Doe",
       logoImg: "some_URL",
       type: "Organization account",
@@ -34,10 +34,10 @@ const useStyles = makeStyles((theme) => ({
       address: [{
         address: "Line 1, Rd. 1",
         address_line_2: "Line 2, Rd. 2",
-        city: "Some city",
-        country: "Some country",
+        state: "Ebonyi State",
+        country: "Nigeria",
       }],
-      description: "Lorem ipsum, dollot si amer jfufccciif nnccldld nndd",
+    description: "Lorem ipsum, dollot si amer jfufccciif nnccldld nndd. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam",
       tags: ["Tag1,", "Tag2,", "Tag3"]
     }
 
@@ -53,7 +53,7 @@ const BureauInfo = ({data}) => {
           <div className="col-md-3 content--border-gray p-3">
             <div className="content__content-one d-block">
               <div className="content-one__img">
-                <img src="{Logo}" alt="Fumana Logo" className="img-fluid logo text-center" />
+                <img src={Logo} alt="Fumana Logo" className="img-fluid logo text-center" />
               </div>
               <p className="content-one__org-name"> <b className="text">Organization name:</b> {info.name}</p>
               <p className="content-one__org-type"><b className="text">Organization type:</b> {info.type}</p>
@@ -70,15 +70,13 @@ const BureauInfo = ({data}) => {
             <div className="content__content-two">
               <div className="row">
                 <div className="col-md-3">
-                  <p className="content-two__prim-email"><b className="text">Primary email:</b>
-                    {info.contact.primary_email}
+                  <p className="content-two__prim-email"><b className="text">Primary email:</b> {info.contact.primary_email}
                   </p>
                   <p className="content-two__sec-email"><b className="text">Secondary email:</b> {info.contact.secondary_email}</p>
                   <p className="content-two__website"> <b className="text">Website:</b> {info.website}</p>
                 </div>
                 <div className="col-md-4">
-                  <p className="content-two__pos"><b className="text">Position in Organization:</b>
-                    {info.contact.position}
+                  <p className="content-two__pos"><b className="text">Position in Organization:</b> {info.contact.position}
                   </p>
                   <p className="content-two__phone-one"><b className="text">Phone no. 1:</b> {info.contact.phone_number_1}
                   </p>
@@ -86,14 +84,12 @@ const BureauInfo = ({data}) => {
                   </p>
                 </div>
                 <div className="col-md-4">
-                  <p className="content-two__business">
-                    Business address: {info.address[0].address}, {info.address[0].address_line_2},
-                    {info.address[0].city}
+                  <p className="content-two__business"> <b className="text">Business address:</b> {info.address[0].address}, {info.address[0].address_line_2}, {info.address[0].state}
                   </p>
-                  <p className="content-two__country">Country: {info.address[0].country}</p>
+                  <p className="content-two__country"> <b className="text">Country:</b> {info.address[0].country}</p>
                 </div>
                 <div className="col-md-1">
-                  <a href="/edit" title="Edit"><i className="fa fa-2x fa-edit"></i></a>
+                  <a href="/edit" title="Edit" className="edit p-2 border bg-hover"><i className="fa fa-2x fa-edit"> Edit</i></a>
                 </div>
               </div>
             </div>
