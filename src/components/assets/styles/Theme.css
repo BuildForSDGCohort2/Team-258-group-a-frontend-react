@@ -14,9 +14,11 @@
   --color_white: #fff;
   --color_black: #000;
   --color_gray: rgba(122, 118, 118, 0.897);
+  --color_lightgray: rgba(170, 169, 169, 0.404);
   --color_darkgray: rgba(39, 38, 38, 0.897);
   --color_accessibility: #263238;
   --color_hover: #00aa9f;
+  --color_hover__dark: #008077;
   --bg_hover__dark: #008077;
   --bg_lightgray: rgba(245, 245, 245, 0.8);
   --bg_hover: #00b6aa;
@@ -49,6 +51,10 @@
 
 .color-hover {
   color: var(--color_hover);
+}
+
+.color-hover__dark {
+  color: var(--color_hover__dark);
 }
 
 .color-white {
