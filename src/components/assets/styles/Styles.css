@@ -17,6 +17,10 @@ button {
   cursor: pointer;
 }
 
+body {
+  background-color: var(--bg_lightgray);
+}
+
 body,
 input,
 button {
