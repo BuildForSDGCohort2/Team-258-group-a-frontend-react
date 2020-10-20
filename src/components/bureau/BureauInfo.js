@@ -59,10 +59,10 @@ const BureauInfo = ({data}) => {
               <p className="content-one__org-type"><b className="text">Organization type:</b> {info.type}</p>
               <p className="content-one__acc-no"><b className="text">Fumana Acct. No.:</b> {info.id}</p>
               <p className="content-one__date-joined"><b className="text">Date joined:</b> {info.date_joined}</p>
-              <div className="content-one__social d-inline">
-                <i className="fa fa-2x fa-facebook"></i>
-                <i className="fa fa-2x fa-twitter"></i>
-                <i className="fa fa-2x fa-mail"></i>
+              <div className="content-one__social d-inline d-flex justify-content-around">
+                <a href="#" target="_blank" title="User on Facebook"><i className="fa fa-facebook"></i></a>
+                <a href="#" target="_blank" title="User on Twitter"><i className="fa fa-twitter"></i></a>
+                <a href="#" target="_blank" title="Mail user"><i className="fa fa-envelope"></i></a>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const BureauInfo = ({data}) => {
                   <p className="content-two__country"> <b className="text">Country:</b> {info.address[0].country}</p>
                 </div>
                 <div className="col-md-1">
-                  <a href="/edit" title="Edit details" className="edit p-2 border rounded bg_hover__dark text-white"><i className="fa fa-2x fa-edit"> Edit</i></a>
+                  <a href="/edit" title="Edit details" className="edit p-2 border rounded bg_hover__dark text-white d-inline"><i className="fa fa-edit"></i></a>
                 </div>
               </div>
             </div>
