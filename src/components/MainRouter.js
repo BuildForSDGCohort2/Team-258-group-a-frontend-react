@@ -13,10 +13,11 @@ import BureauInfo from './bureau/BureauInfo';
 import JobSeekers from './bureau';
 import Dashboard from './bureau/Dashboard';
 import EditBureau from './bureau/EditBureau';
-import NotFound from './core/404';
+import NotFound from './core/notfound/404';
 
 
 const MainRouter = () => {
+  
     return (
     <div className="wrapper d-flex align-items-stretch">
       <Router>
