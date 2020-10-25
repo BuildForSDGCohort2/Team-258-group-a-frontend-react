@@ -26,7 +26,6 @@ const MainRouter = () => {
         <Route path="/signup" component={Signup}/>
         <Route path="/signin" component={Signin}/>
         <Route path="/forgot-pass" component={ForgotPass}/>
-        <Route path="*" component={NotFound}/>
         <Sidenav/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
@@ -34,6 +33,7 @@ const MainRouter = () => {
         <Route path='/jobseeker' component={JobSeekers} />
         <Route path='/dashboard' component={Dashboard} />
         <Route path='/edit' component={EditBureau} />
+        <Route path="*" component={NotFound}/>
       </Switch>
       </Router>
     </div>)
