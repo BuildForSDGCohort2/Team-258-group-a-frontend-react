@@ -19,7 +19,6 @@ import NotFound from './core/404';
 const MainRouter = () => {
     return (
     <div className="wrapper d-flex align-items-stretch">
-      <Sidenav/>
       <Router>
       <Switch>
         <Route exact path="/" component={Home}/>
@@ -28,6 +27,7 @@ const MainRouter = () => {
         <Route path="/signin" component={Signin}/>
         <Route path="/forgot-pass" component={ForgotPass}/>
         <Route path="*" component={NotFound}/>
+        <Sidenav/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
         <Route path='/bureau' component={BureauInfo} />
