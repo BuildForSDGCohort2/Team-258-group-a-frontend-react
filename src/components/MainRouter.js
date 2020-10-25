@@ -13,7 +13,7 @@ import BureauInfo from './bureau/BureauInfo';
 import JobSeekers from './bureau';
 import Dashboard from './bureau/Dashboard';
 import EditBureau from './bureau/EditBureau';
-import NotFound from './core/NotFound';
+import NotFound from './core/404';
 
 
 const MainRouter = () => {
@@ -21,13 +21,13 @@ const MainRouter = () => {
     <div className="wrapper d-flex align-items-stretch">
       <Sidenav/>
       <Router>
-      <Route exact path="/" component={Home}/>
-      <Route path="/users" component={Users}/>
-      <Route path="/signup" component={Signup}/>
-      <Route path="/signin" component={Signin}/>
-      <Route path="/forgot-pass" component={ForgotPass}/>
-      <Route component={NotFound}/>
       <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/users" component={Users}/>
+        <Route path="/signup" component={Signup}/>
+        <Route path="/signin" component={Signin}/>
+        <Route path="/forgot-pass" component={ForgotPass}/>
+        <Route path="*" component={NotFound}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
         <Route path='/bureau' component={BureauInfo} />
