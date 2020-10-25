@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './NotFound.css';
-import * as $ from 'jquery';
+import $ from 'jquery';
+window.$ = $;
 import { parallax, stopParallax } from './NotFound.js';
 
 class NotFound extends Component {
