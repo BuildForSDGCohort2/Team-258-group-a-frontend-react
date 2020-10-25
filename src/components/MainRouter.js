@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, Switch} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './core/Home'
 import Users from './user/Users'
 import Signup from './user/Signup'
@@ -12,19 +12,22 @@ import Sidenav from './core/Sidenav';
 import BureauInfo from './bureau/BureauInfo';
 import JobSeekers from './bureau';
 import Dashboard from './bureau/Dashboard';
-import EditBureau from './bureau/EditBureau'
+import EditBureau from './bureau/EditBureau';
+import NotFound from './core/NotFound';
 
 
 const MainRouter = () => {
     return (
     <div className="wrapper d-flex align-items-stretch">
       <Sidenav/>
+      <Router>
+      <Route exact path="/" component={Home}/>
+      <Route path="/users" component={Users}/>
+      <Route path="/signup" component={Signup}/>
+      <Route path="/signin" component={Signin}/>
+      <Route path="/forgot-pass" component={ForgotPass}/>
+      <Route component={NotFound}/>
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/users" component={Users}/>
-        <Route path="/signup" component={Signup}/>
-        <Route path="/signin" component={Signin}/>
-        <Route path="/forgot-pass" component={ForgotPass}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
         <Route path='/bureau' component={BureauInfo} />
@@ -32,6 +35,7 @@ const MainRouter = () => {
         <Route path='/dashboard' component={Dashboard} />
         <Route path='/edit' component={EditBureau} />
       </Switch>
+      </Router>
     </div>)
 }
 
