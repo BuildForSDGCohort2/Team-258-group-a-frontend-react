@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import Home from './core/Home'
 import Users from './user/Users'
 import Signup from './user/Signup'
@@ -20,14 +20,13 @@ const MainRouter = () => {
   
     return (
     <div className="wrapper d-flex align-items-stretch">
-      <Router>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/users" component={Users}/>
           <Route path="/signup" component={Signup}/>
           <Route path="/signin" component={Signin}/>
           <Route path="/forgot-pass" component={ForgotPass}/>
-          <Sidenav/>
+          <Sidenav />
           <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
           <Route path="/user/:userId" component={Profile}/>
           <Route path='/bureau' component={BureauInfo} />
@@ -36,7 +35,6 @@ const MainRouter = () => {
           <Route path='/edit' component={EditBureau} />
           <Route component={NotFound}/>
         </Switch>
-      </Router>
     </div>)
 }
 
