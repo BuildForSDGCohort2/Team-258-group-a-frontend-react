@@ -76,11 +76,11 @@ body {
 }
 
 .not-found .wave-lost {
+    color: #fff;
+    font-size: 10rem;
     position: absolute;
     top: 20%;
-    left: 50%;
-    color: #fff;
-    font-size: 20rem;
+    right: 40%;
     -webkit-animation: surf 2s;
     -moz-animation: surf 2s;
     -o-animation: surf 2s;
@@ -88,7 +88,6 @@ body {
 }
 
 .not-found .wave-lost span {
-    float: left;
     -webkit-animation: float 3s ease-in infinite;
     -moz-animation: float 3s ease-in infinite;
     -o-animation: float 3s ease-in infinite;
@@ -115,17 +114,19 @@ body {
     left: 20%;
     padding: 10px;
     width: 170px;
+    cursor: pointer;
+    z-index: 999;
+
 }
 
 .not-found .wave-message {
     position: absolute;
-    bottom: 100px;
-    left: 50%;
-    padding-right: 50%;
+    left: 5%;
+    right: 5%;
+    margin: auto auto 20% auto;
     height: auto !important;
+    width: 100%;
     color: #fff;
-    font-size: 3rem;
-    text-align: left;
     -webkit-animation: wave-message 1s;
     -moz-animation: wave-message 1s;
     -o-animation: wave-message 1s;
