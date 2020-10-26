@@ -28,7 +28,7 @@ const MainRouter = () => {
         <Route path="/forgot-pass" component={ForgotPass}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
-        <Sidenav/>
+        {/* <Sidenav/> */}
         <Route path='/bureau' component={BureauInfo} />
         <Route path='/jobseeker' component={JobSeekers} />
         <Route path='/dashboard' component={Dashboard} />
