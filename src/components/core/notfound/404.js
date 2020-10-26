@@ -10,7 +10,7 @@ class NotFound extends Component {
 				<div className="sky-bg"></div>
 				<div className="wave-7"></div>
 				<div className="wave-6"></div>
-				<a className="wave-island" href="/index.html">
+				<a className="wave-island" href="/home">
 					<img src="http://res.cloudinary.com/andrewhani/image/upload/v1524501929/404/island.svg" alt="Island" />
 				</a>
 				<div className="wave-5"></div>
