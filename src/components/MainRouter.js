@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, Switch} from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import Home from './core/Home'
 import Users from './user/Users'
 import Signup from './user/Signup'
@@ -12,25 +12,29 @@ import Sidenav from './core/Sidenav';
 import BureauInfo from './bureau/BureauInfo';
 import JobSeekers from './bureau';
 import Dashboard from './bureau/Dashboard';
-import EditBureau from './bureau/EditBureau'
+import EditBureau from './bureau/EditBureau';
+import NotFound from './core/notfound/404';
 
 
 const MainRouter = () => {
+  
     return (
     <div className="wrapper d-flex align-items-stretch">
-      <Sidenav/>
       <Switch>
-        <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
         <Route path="/users" component={Users}/>
         <Route path="/signup" component={Signup}/>
         <Route path="/signin" component={Signin}/>
         <Route path="/forgot-pass" component={ForgotPass}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
+        {/* <Sidenav/> */}
         <Route path='/bureau' component={BureauInfo} />
         <Route path='/jobseeker' component={JobSeekers} />
         <Route path='/dashboard' component={Dashboard} />
         <Route path='/edit' component={EditBureau} />
+        <Route path="*" component={NotFound}/>
       </Switch>
     </div>)
 }

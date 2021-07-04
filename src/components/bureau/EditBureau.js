@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
+
 const EditBureau = ({editBureauData})=> {
   return (
         <div className="container bg-lightgray p-5">
             <div className="row first-row d-flex mb-4">
-
                 <div className="col-md-6">
                     <div className="row first-sub-row-a justify-content-start">
                         <div className="col-md-3">
